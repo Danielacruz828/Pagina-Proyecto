@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" href="Css/galeria.css"> 
+</head>
+<body>
+
+    <nav class="barra">
+        <div class="logo-container">
+            <img src="img/logo2.png" alt="LOGO">
+        </div>
+        <ul class="nav-links">
+            <li><a href="inicio.html" class="active">Inicio</a></li>
+            <li><a href="Historia.html">Historia</a>
+                <ul class="dropdown">
+                    <li><a href="afectados.html">Afectados</a>
+                        <ul>
+                            <li><a href="trabajador_a.html">Trabajador A</a></li>
+                            <li><a href="trabajador_b.html">Trabajador B</a></li>
+                            <li><a href="trabajador_c.html">Trabajador C</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="impacto.html">Impacto</a></li>
+            <li><a href="Galeria.html">Galería</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            <li><a href="Creadores.html">Creadores</a></li>
+        </ul>
+    </nav>
+<section class="galeria">
+    <h2>Galería de Imágenes</h2>
+    <p>Explora imágenes relacionadas con el accidente radiológico de 1989 en El Salvador.</p>
+
+    <div class="carrusel">
+        <div class="carrusel-track">
+            <img src="img/irradiador.png" alt="Imagen 1">
+            <img src="img/puerta.jpg" alt="Imagen 2">
+            <img src="img/lapices_cobalto60.png" alt="Imagen 3">
+            <img src="img/techo.png" alt="Imagen 4">
+            <img src="img/cuarto_irradiación.png" alt="Imagen 5">
+            <img src="img/planta_agua.png" alt="Imagen 6">
+        </div>
+        <button class="carrusel-btn prev">&#10094;</button>
+        <button class="carrusel-btn next">&#10095;</button>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Todos los derechos reservados</p>
+        <p>IG: chernobyl_sv1989</p>
+    </footer>
+    <script src="JavaScript/Galeria.js"></script>
+</body>
+</html>
